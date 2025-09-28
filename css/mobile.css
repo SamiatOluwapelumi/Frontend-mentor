@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    overflow-x: hidden;
+       font-family: "Poppins", serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:640px) {
+
+.Reliable {
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 50px;
+    color :rgba(30, 30, 30, 0.782);
+}
+
+.powered{
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 550;
+    text-align: center;
+    color : rgba(30, 30, 30, 0.782);
+}
+
+.AI {
+    font-family: poppins;
+    text-align: center;
+    color : rgba(30, 30, 30, 0.782);
+    padding: 5px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+}

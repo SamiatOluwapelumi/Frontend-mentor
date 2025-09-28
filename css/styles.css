@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    overflow-x: hidden;
+       font-family: "Poppins", serif;
+}
+* {
+    box-sizing: border-box;
+}
+.Reliable {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 50px;
+    color :rgba(30, 30, 30, 0.782);
+}
+
+.powered{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 550;
+    text-align: center;
+    color : rgba(30, 30, 30, 0.782);
+}
+
+.AI {
+    font-family: poppins;
+    text-align: center;
+    color : rgba(30, 30, 30, 0.782);
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.grid1 {
+    width: 350px;
+    height: 250px;
+    background-color:white;
+    border-radius: 5px;
+    border-top: 5px solid rgb(0, 255, 221);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid3 {
+    width: 350px;
+    height: 250px;
+     background-color:white;
+    border-radius: 10px;
+    border-top: 5px solid rgb(23, 83, 180);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.card_up {
+    width: 350px;
+    height: 250px;
+     background-color:white;
+    border-radius: 10px;
+    border-top: 5px solid rgb(255, 42, 0);
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.card_down {
+    width: 350px;
+    height: 250px;
+    background-color:white;
+    border-radius: 10px;
+    border-top: 5px solid rgb(184, 146, 76);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.sup{
+    font-family: poppins;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.mon {
+    font-family: poppins;
+    margin-left: 20px;
+    color :rgba(30, 30, 30, 0.782);
+}
+.search {
+    width: 120px;
+    height: 120px;
+    margin-left: 220px;
+}
+.idea {
+    width: 80px;
+    height: 80px;
+    margin-left: 220px;
+}
+.monitor {
+    width: 80px;
+    height: 80px;
+    margin-left: 220px;
+}
+.home {
+    width: 80px;
+    height: 80px;
+    margin-left: 220px;
+}
