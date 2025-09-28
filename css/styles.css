@@ -37,40 +37,12 @@ body, html {
     align-items: center;
     margin-top: 50px;
 }
-.grid1 {
+.card {
     width: 350px;
     height: 250px;
     background-color:white;
     border-radius: 5px;
-    border-top: 5px solid rgb(0, 255, 221);
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
-}
-
-.grid3 {
-    width: 350px;
-    height: 250px;
-     background-color:white;
-    border-radius: 10px;
-    border-top: 5px solid rgb(23, 83, 180);
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
-}
-.card_up {
-    width: 350px;
-    height: 250px;
-     background-color:white;
-    border-radius: 10px;
-    border-top: 5px solid rgb(255, 42, 0);
-    margin-bottom: 30px;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
-}
-.card_down {
-    width: 350px;
-    height: 250px;
-    background-color:white;
-    border-radius: 10px;
-    border-top: 5px solid rgb(184, 146, 76);
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
-    
 }
 .sup{
     font-family: poppins;
@@ -87,17 +59,7 @@ body, html {
     height: 120px;
     margin-left: 220px;
 }
-.idea {
-    width: 80px;
-    height: 80px;
-    margin-left: 220px;
-}
-.monitor {
-    width: 80px;
-    height: 80px;
-    margin-left: 220px;
-}
-.home {
+.idea, .monitor, .home {
     width: 80px;
     height: 80px;
     margin-left: 220px;
